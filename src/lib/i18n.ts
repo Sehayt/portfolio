@@ -47,7 +47,7 @@ export const translations: Translations = {
 
   // Hero Section
   'hero.greeting': {
-    en: 'Hey there!',
+    en: 'Hey !',
     fr: 'Salut !'
   },
   'hero.iam': {

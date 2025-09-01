@@ -53,7 +53,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 1.4 }}
               >
-                <motion.a
+                {/* <motion.a
                   href="https://github.com/oussamashait"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,9 +62,9 @@ export default function HeroSection() {
                   whileTap={{ scale: 0.9 }}
                 >
                   <Github className="h-5 w-5" />
-                </motion.a>
+                </motion.a> */}
                 <motion.a
-                  href="https://www.linkedin.com/in/oussamashait"
+                  href="https://www.linkedin.com/in/oussama-shait-580653255/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-secondary rounded-full p-2 hover:bg-secondary/80 transition-colors"
@@ -74,7 +74,7 @@ export default function HeroSection() {
                   <Linkedin className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="mailto:oussamashait@gmail.com"
+                  href="mailto:oussama.seth22@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-secondary rounded-full p-2 hover:bg-secondary/80 transition-colors"

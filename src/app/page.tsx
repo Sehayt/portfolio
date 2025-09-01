@@ -7,7 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { ScrollDownAnimation } from "@/components/ui/scroll-down-animation";
-import BlogSection from "@/components/BlogSection";
+// import BlogSection from "@/components/BlogSection";
 
 export default function Home() {
   return (

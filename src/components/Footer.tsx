@@ -5,31 +5,31 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 
 const socialLinks = [
-  {
-    name: "GitHub",
-    url: "https://github.com/mawin",
-    icon: <Github className="w-5 h-5" />
-  },
+  // {
+  //   name: "GitHub",
+  //   url: "https://github.com/mawin",
+  //   icon: <Github className="w-5 h-5" />
+  // },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/mawin",
+    url: "https://www.linkedin.com/in/oussama-shait-580653255/",
     icon: <Linkedin className="w-5 h-5" />
   },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/mawin",
-    icon: <Twitter className="w-5 h-5" />
-  },
+  // {
+  //   name: "Twitter",
+  //   url: "https://twitter.com/mawin",
+  //   icon: <Twitter className="w-5 h-5" />
+  // },
 ];
 
-const footerLinks = [
-  { name: "Home", href: "#home" },
-  { name: "Experience", href: "#experience" },
-  { name: "Education", href: "#education" },
-  // { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" },
-];
+// const footerLinks = [
+//   { name: "Home", href: "#home" },
+//   { name: "Experience", href: "#experience" },
+//   { name: "Education", href: "#education" },
+//   // { name: "Projects", href: "#projects" },
+//   { name: "Skills", href: "#skills" },
+//   { name: "Contact", href: "#contact" },
+// ];
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
