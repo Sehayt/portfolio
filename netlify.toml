@@ -1,0 +1,22 @@
+[build]
+  command = "bun run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[context.production]
+  environment = { NETLIFY_SITE_NAME = "mawin" }
+
+[[redirects]]
+  from = "https://mawin.netlify.app/*"
+  to = "https://mawin.same-app.com/:splat"
+  status = 301
+  force = true
+
+[images]
+  remote_images = [
+    "https://ext.same-assets.com/**",
+    "https://cdn.jsdelivr.net/**",
+    "https://www.google.com/maps/**"
+  ]
